@@ -1,0 +1,4 @@
+Display: Grid || in- line grid
+CỘT: GRID -Template - column: 4 tham số
+Dòng: Grid - template - rows
+Căn Chỉnh: justify- content || align-content

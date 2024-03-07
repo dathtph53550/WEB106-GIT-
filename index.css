@@ -1,0 +1,56 @@
+.layout{
+    width: 520px;
+    margin: 200px auto;
+    border: 2px solid black;
+    padding: 10px 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    text-align: center;
+}
+.text1{
+    font-weight: bold;
+    font-size: 20px;
+}
+.box1{
+    margin-top: 3px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.box2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.ketqua{
+    font-size: 20px;
+}
+.ketqua input{
+    margin-left: 4px;
+    background-color: rgb(243, 142, 9);
+}
+label{
+    margin-right: 15px;
+}
+input{
+    width: 200px;
+    height: 20px;
+}
+.box3{
+    margin-top: 15px;
+}
+button{
+    background-color: orange; /* Màu nền của nút là cam */
+    border: none; /* Loại bỏ viền */
+    color: white; /* Màu chữ là trắng */
+    padding: 10px 20px; /* Kích thước lề của nút */
+    text-align: center; /* Căn giữa nội dung của nút */
+    text-decoration: none; /* Loại bỏ gạch chân (nếu có) */
+    display: inline-block; /* Hiển thị như một phần tử block */
+    font-size: 16px; /* Kích thước chữ */
+    cursor: pointer; /* Con trỏ chuột là dấu nhấp nháy */
+    border-radius: 4px; /* Bo góc */
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Đổ bóng */
+}
