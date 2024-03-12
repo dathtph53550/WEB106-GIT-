@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-width: 100vh;
+            background-color: azure;
+        }
+        .header,.footer{
+            background-color: aquamarine;
+            color: red;
+            padding: 20px;
+            text-align: center;
+        }
+        .content{
+            padding: 20px;
+            text-align: center;
+            flex-grow: 1;
+            background-color: bisque;
+        }
+        .container{
+            position: relative;
+            min-height: 100%;
+        }
+        
+        @media only screen and (max-width: 800px){
+            .header .content .footer{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p>Header</p>
+        </div>
+        <div class="content">
+            <h2>Content</h2>
+            <p>Noi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi DungNoi Dung Noi Dung Noi DungNoi DungNoi DungNoi DungNoi DungNoi Dung</p>
+            <img src="images/header-object.png" alt="">
+        </div>
+        <div class="footer">
+            <h3>Footer</h3>
+            <p>Day la footer</p>
+        </div>
+    </div>
+</body>
+</html>
