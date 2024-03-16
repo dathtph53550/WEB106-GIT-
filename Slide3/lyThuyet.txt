@@ -1,0 +1,9 @@
+Thuộc tính
+1.Flex-direction: Hướng Phát Triển
+2.Flex-wrap: có bọc ? wrap || nowrap
+3.flex-flow: row wrap
+Kết hợp giữa: flex-direction và flex-wrap
+4.Căn chỉnh nội dung: 
+Justify-content: center
+flex-start || flex-end
+5.Align-item: (Căn chỉnh các item)

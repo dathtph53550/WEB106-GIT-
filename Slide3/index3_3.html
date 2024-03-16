@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+        }
+        .header{
+            padding: 50px;
+            text-align: center;
+            color: red;
+            background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200312/pngtree-lemon-leaf-repeat-pattern-background-image_331509.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .navbar{
+            display: flex;  
+            background-color: yellow;
+            justify-content: space-around;
+        }
+        .navbar a{
+            text-decoration: none;
+            color: blue;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a:hover{
+            color: red;
+            background-color: aquamarine;
+        }
+        .row{
+            display: flex;
+            /* flex-wrap: wrap; */
+        }
+        .side{
+            flex: 30%;
+            background-image: url(https://png.pngtree.com/background/20220724/original/pngtree-seamless-repeating-background-in-a-honeycomb-style-ideal-as-a-desktop-picture-image_1745718.jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 20px;
+        }
+        .main{
+            flex: 70%;
+            background-image: url(https://cdn.pixabay.com/photo/2018/01/18/11/44/geometric-3090094_960_720.png);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            padding: 20px;
+        }
+        .fimg{
+            background-color: pink;
+            width: 100%;
+            padding: 20px;
+        }
+        .footer{
+            background-color: chartreuse;
+            padding: 20px;
+            text-align: center;
+        }
+        @media screen and (max-width: 800px){
+            .row, .navbar{
+                flex-direction: column;
+            }
+        }
+    </style>
+  </head>
+  <body>
+    <div style="background-color: blanchedalmond; padding: 10px">
+      <h3 style="text-align: center">The H3</h3>
+    </div>
+    <!-- Header  -->
+    <div class="header">
+      <h1>Website cua toi</h1>
+      <p>mot so noi dung</p>
+    </div>
+    <!-- MENU -->
+    <div class="navbar">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+      <a href="#">Link 4</a>
+      <a href="#">Link 5</a>
+    </div>
+    <!-- Content -->
+    <div class="row">
+      <div class="side">
+        <h2>Gioi Thieu</h2>
+        <h3>Trang 1</h3>
+        <p>
+          Noi dung noi dung noi dung Noi dung noi dung noi dung Noi dung noi
+          dung noi dung Noi dung noi dung noi dung Noi dung noi dung noi dungNoi
+          dung noi dung noi dungNoi dung noi dung noi dungNoi dung noi dung noi
+          dungNoi dung noi dung noi dungNoi dung noi dung noi dungNoi dung noi
+          dung noi dungNoi dung noi dung noi dungNoi dung noi dung noi dungNoi
+          dung noi dung noi dung
+        </p>
+        <div class="fimg" style="height: 60px">Image</div>
+        <br />
+        <div class="fimg" style="height: 60px">Image</div>
+        <br />
+        <div class="fimg" style="height: 60px">Image</div>
+        <br />
+        <div class="fimg" style="height: 60px">Image</div>
+        <br />
+      </div>
+      <!-- Main -->
+      <div class="main">
+        <h2>Day la main</h2>
+        <h5>Noi dung cua main1</h5>
+        <div class="fimg" style="height: 200px;">Image</div>
+        <p>Text TextText TextText TextText TextText TextText TextText Te
+            tText TextText TextText Text</p>
+        <br>
+        <h2>Noi dung tiep theo</h2>
+        <h5>Noi dung cua main2</h5>
+        <div class="fimg" style="height: 200px;">Image</div>
+        <p>Text TextText TextText TextText TextText TextText TextText Te
+            tText TextText TextText Text</p>
+        <br>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+  </body>
+</html>
